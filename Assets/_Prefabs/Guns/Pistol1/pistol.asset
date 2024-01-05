@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb69ffa18d8c67949a96decc4a9c6509, type: 3}
+  m_Name: pistol
+  m_EditorClassIdentifier: 
+  gunName: Pistol1
+  shootPower: 1
+  shootSpeed: 25
+  bulletPrefab: {fileID: 5533794145121202135, guid: 50f7a89541288f44aa3282e68bca4bf9, type: 3}
+  capacityBullet: 5
+  objectPoolNumber: 5
+  bulletTransform: {fileID: 6058959366374348190, guid: b1de8d49c9b43f149a5f28481a3b32aa, type: 3}
+  destroyerTime: 1.5
+  shotClip: {fileID: 8300000, guid: d684cb2f96851bb46838ae781a409b18, type: 3}
+  reloadClip: {fileID: 8300000, guid: 38466f63e9af1c5438d8d023ea56c0f8, type: 3}
+  animatorController: {fileID: 9100000, guid: 0dc9769e5a5fe5c48b252b3a8a3a492e, type: 2}
