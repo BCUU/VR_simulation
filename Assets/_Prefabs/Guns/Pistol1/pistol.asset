@@ -13,13 +13,14 @@ MonoBehaviour:
   m_Name: pistol
   m_EditorClassIdentifier: 
   gunName: Pistol1
-  shootPower: 1
   shootSpeed: 25
   bulletPrefab: {fileID: 5533794145121202135, guid: 50f7a89541288f44aa3282e68bca4bf9, type: 3}
-  capacityBullet: 5
   objectPoolNumber: 5
-  bulletTransform: {fileID: 6058959366374348190, guid: b1de8d49c9b43f149a5f28481a3b32aa, type: 3}
   destroyerTime: 1.5
   shotClip: {fileID: 8300000, guid: d684cb2f96851bb46838ae781a409b18, type: 3}
-  reloadClip: {fileID: 8300000, guid: 38466f63e9af1c5438d8d023ea56c0f8, type: 3}
+  emptyClip: {fileID: 8300000, guid: 9334112e4fdb530448e9f5709500e701, type: 3}
+  reloadSound: {fileID: 8300000, guid: 05d18ebfbbbdf9f4991a2e101bbd3f1f, type: 3}
+  tape: {fileID: 8300000, guid: 4bdba3a2a1933a042b9d510cba5d0cc6, type: 3}
   animatorController: {fileID: 9100000, guid: 0dc9769e5a5fe5c48b252b3a8a3a492e, type: 2}
+  capacityBullet: 5
+  emptyBullet: {fileID: 1894908866229283175, guid: 684a2747c3cc826488e66b2474a60d7e, type: 3}

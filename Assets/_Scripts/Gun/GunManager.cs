@@ -12,13 +12,8 @@ public class GunManager : ScriptableObject
     public GameObject bulletPrefab;
     public int objectPoolNumber;
     public float destroyerTime;
-    public AudioClip shotClip;
+    public AudioClip shotClip,emptyClip,reloadSound,tape;
     public RuntimeAnimatorController animatorController;
-
-    /*ekleyeceklerim
-    public float shootPower;
     public int capacityBullet;
-    public AudioClip reloadClip;
-    */
-
+    public GameObject emptyBullet;
 }

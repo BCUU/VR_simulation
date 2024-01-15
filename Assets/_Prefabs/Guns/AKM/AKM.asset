@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb69ffa18d8c67949a96decc4a9c6509, type: 3}
+  m_Name: AKM
+  m_EditorClassIdentifier: 
+  gunName: AKM
+  shootSpeed: 50
+  bulletPrefab: {fileID: 5351634317301225661, guid: 7ee2a318ee99e5e43913fefe19f24c6e, type: 3}
+  objectPoolNumber: 10
+  destroyerTime: 2
+  shotClip: {fileID: 8300000, guid: 5d267e9711abb7045bf15c2535a5dcf4, type: 3}
+  emptyClip: {fileID: 8300000, guid: 9334112e4fdb530448e9f5709500e701, type: 3}
+  reloadSound: {fileID: 8300000, guid: 05d18ebfbbbdf9f4991a2e101bbd3f1f, type: 3}
+  tape: {fileID: 8300000, guid: 4bdba3a2a1933a042b9d510cba5d0cc6, type: 3}
+  animatorController: {fileID: 9100000, guid: 6909e0303d465b74dabc0651ef7263ac, type: 2}
+  capacityBullet: 10
+  emptyBullet: {fileID: 3019946823513922552, guid: 33ef7020efa80a84e809369f532e8bd2, type: 3}
